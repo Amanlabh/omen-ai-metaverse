@@ -8,14 +8,14 @@ const Projects = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        My{" "}
+        People made{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
-          Projects
+          Projects 
         </span>
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
+        People have embarked on numerous projects throughout the years, but these are
         the ones I hold closest to my heart. Many of them are open-source, so if
         you come across something that piques your interest, feel free to
         explore the codebase and contribute your ideas for further enhancements.
@@ -42,19 +42,8 @@ const Projects = () => {
               </h4>
               <p className='mt-2 text-slate-500'>{project.description}</p>
               <div className='mt-5 flex items-center gap-2 font-poppins'>
-                <Link
-                  to={project.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
-                >
-                  Live Link
-                </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+               
+                
               </div>
             </div>
           </div>

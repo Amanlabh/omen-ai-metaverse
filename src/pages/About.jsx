@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          OMEN AI
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        
+OMEN AI is an autonomous virtual assistant designed using OPEN AI  to revolutionize <br /> human-machine interactions by seamlessly integrating into everyday life. It possesses unparalleled emotional intelligence and <br /> can anticipate human needs before they are even articulated. OMEN AI has been praised for its ability to forge deep, meaningful <br /> connections with users, making it a cornerstone of the next generation of AI technology.
         </p>
       </div>
 
@@ -47,11 +47,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'> Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            Since I am new to this  world  and i interacted with a lot of human kinds and get to know alot about recent Technology used by develover who are currently working <br />
+            in big Tech companies.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const About = () => {
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
-                date={experience.date}
+                date="2024"
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
